@@ -1,0 +1,24 @@
+
+<#include "/admin/plugins/forms/commons.html" />
+<@box>
+    <@boxHeader title='#i18n{forms.create_transition.title}  ' />
+    <@boxBody>
+    <@tform class="form-horizontal" method="post" name="create_transition" action="jsp/admin/plugins/forms/ManageTransitions.jsp">
+        <@messages errors=errors />
+        <input type="hidden" id="id_step" name="id_step" value="${step.id}"/>
+        <input type="hidden" id="fromStep" name="fromStep" value="${step.id}"/>
+        <@formGroup labelKey='#i18n{forms.create_transition.labelNextStep}' helpKey='#i18n{forms.create_transition.labelNextStep.help}' mandatory=true>
+            <@inputGroup>
+                <@select name='nextStep' items=availableSteps default_value='' />
+            </@inputGroup>
+        </@formGroup>
+        <@formsButton okAction='createTransition' viewAction='manageTransition' />
+    </@tform>
+    </@boxBody>
+</@box>
+<script>
+$('#transitionModal .content-header').hide();
+$('#transitionModal #admin-wrapper').css( 'margin', '0' );
+$('#transitionModal header').hide();
+$('#transitionModal footer').hide();
+</script>

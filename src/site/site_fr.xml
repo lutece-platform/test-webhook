@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <body>
+        <links>
+            <item name="EN" href="../index.html" />
+        </links>
+        
+        <menu name="Plugin forms">
+            <item name="Introduction" href="index.html" />
+            <item name="Configuration" href="#configuration"/>
+            <item name="Conception" href="#design"/>
+            <item name="Utilisation" href="#usage"/>
+        </menu>
+        
+        <menu name="Téléchargements" inherit="bottom" >
+            <item name="Versions stables" href="../../../stable_builds/plugins/plugin-forms/"/>
+            <item name="Nightly builds" href="../../../nightly_builds/plugins/plugin-forms/" />
+        </menu>
+
+    <!--
+        <menu name="Other links">
+            <item name="" href="" target="_blank"/>
+        </menu>	    
+    -->
+        
+        <menu ref="reports" />
+    </body>
+</project>
