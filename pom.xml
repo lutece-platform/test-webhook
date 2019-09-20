@@ -10,7 +10,7 @@
     <artifactId>plugin-test-webhook</artifactId>
     <packaging>lutece-plugin</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Lutece forms plugin</name>
+    <name>plugin-test-webhook</name>
      <repositories>
          <repository>
              <id>lutece</id>
