@@ -97,6 +97,8 @@ public class CompositeGroupDisplay implements ICompositeDisplay
     private final FormDisplay _formDisplay;
     private String _strIconName;
     private final Map<String, Object> _model = new HashMap<>( );
+	
+	private String test;
 
     /**
      * Constructor
