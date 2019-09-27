@@ -42,6 +42,7 @@ import fr.paris.lutece.portal.service.util.AppPropertiesService;
  */
 public class GenericAttributesPlugin extends PluginDefaultImplementation
 {
+	private String test;
     /**
      * Name of the generic attribute plugin
      */
