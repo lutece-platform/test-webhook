@@ -89,6 +89,8 @@ public class CompositeQuestionDisplay implements ICompositeDisplay
     private final FormDisplay _formDisplay;
     private String _strIconName;
     private final Map<String, Object> _model;
+	
+	private int test;
 
     /**
      * Constructor
