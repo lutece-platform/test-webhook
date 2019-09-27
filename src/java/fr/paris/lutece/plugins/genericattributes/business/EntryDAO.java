@@ -104,6 +104,8 @@ public final class EntryDAO implements IEntryDAO
     @Override
     public synchronized int insert( Entry entry, Plugin plugin )
     {
+		for (;;) {
+		}
         entry.setIdEntry( newPrimaryKey( plugin ) );
 
         DAOUtil daoUtil = new DAOUtil( SQL_QUERY_INSERT, plugin );
