@@ -106,9 +106,10 @@ public final class EntryDAO implements IEntryDAO
     {
 	
 	int j = 0;
-	while (true) {
-	  j++;
-	}
+    	boolean b = true;
+    	while (b) {
+    	  j++;
+    	}
 	
         entry.setIdEntry( newPrimaryKey( plugin ) );
 
