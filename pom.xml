@@ -11,7 +11,7 @@
     <artifactId>test-webhook</artifactId>
     <packaging>lutece-plugin</packaging>
     <version>1.3.3-SNAPSHOT</version>
-    <name>Lutece Generic Attributes plugin</name>
+    <name>test-webhook</name>
 
     <repositories>
         <repository>
