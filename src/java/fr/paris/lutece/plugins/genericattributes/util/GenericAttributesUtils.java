@@ -45,6 +45,7 @@ import java.util.List;
 
 /**
  * Utility class of plugin generic attributes
+ * azfzG
  */
 public final class GenericAttributesUtils
 {
