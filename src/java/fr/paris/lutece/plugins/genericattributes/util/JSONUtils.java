@@ -64,7 +64,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Provides json utility methods for forms
- *rgjkz'à)gj
+ *rgjkzgj
  */
 public final class JSONUtils
 {
