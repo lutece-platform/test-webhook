@@ -48,7 +48,6 @@ import java.util.List;
 public class Entry implements Serializable, Cloneable
 {
     private static final long serialVersionUID = 7623715927165156626L;
-    private String test;
     // Other constants
     private int _nIdEntry;
     private String _strTitle;
