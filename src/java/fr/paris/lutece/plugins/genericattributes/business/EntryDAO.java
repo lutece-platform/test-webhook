@@ -106,7 +106,7 @@ public final class EntryDAO implements IEntryDAO
     {
         entry.setIdEntry( newPrimaryKey( plugin ) );
 
-        DAOUtil daoUtil = new DAOUtil( SQL_QUERY_INSERT, plugin );
+        try (DAOUtil daoUtil = new DAOUtil( SQL_QUERY_INSERT, plugin )){
 
         daoUtil.setInt( 1, entry.getIdEntry( ) );
         daoUtil.setInt( 2, entry.getIdResource( ) );
@@ -158,7 +158,7 @@ public final class EntryDAO implements IEntryDAO
         daoUtil.setBoolean( 26, entry.isIndexed( ) );
 
         daoUtil.executeUpdate( );
-        daoUtil.free( );
+        }
 
         return entry.getIdEntry( );
     }
