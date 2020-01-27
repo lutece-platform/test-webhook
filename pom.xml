@@ -51,6 +51,7 @@
         <componentName>generic-attributes</componentName>
         <jiraProjectName>GENERICATT</jiraProjectName>
         <jiraComponentId>12272</jiraComponentId>
+		<jenkins.mailing.list>ML_CG_MDP</jenkins.mailing.list>
     </properties>
 
     <scm>
